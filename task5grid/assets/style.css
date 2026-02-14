@@ -1,0 +1,91 @@
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+.card1, .card2,.card3, .card4,.card5, .card6,.card7, .card8,.card9, .card10,.card11, .card12,.card13, .card14,.card15 {
+    border: 2px black solid;
+    min-height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.card1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.card2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.card3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.card4{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.card5{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+}
+.card6{
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+.card7{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+}
+.card8{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+}
+.card9{
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+.card10{
+    grid-column-start: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.card11{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+.card12{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+}
+.card13{
+    grid-column-start: 4;
+    grid-row-start: 5;
+}
+.card14{
+    grid-column-start: 2;
+    grid-row-start: 6;
+}
+.card15{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 6;
+}
