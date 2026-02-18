@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    border: .5px solid rgb(95, 222, 95);
+}
+.card{
+    background-color: rgb(37, 37, 107);
+    color: white;
+    min-height: 60px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
